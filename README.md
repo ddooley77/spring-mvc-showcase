@@ -27,7 +27,7 @@ The steps to get this working with contrast are;
 2. Download the Java contrast agent from TeamServer
 3. Add the Contrast Agent to MAVEN_OPTS e.g.
 
-    export MAVEN_OPTS="-Xms4G -javaagent:<PathToAgent>/contrast.jar -Dcontrast.appname=spring-mvc-showcase -Dcontrast.server=serverName"
+    export MAVEN_OPTS="-Xms4G -javaagent:<PathToAgent>contrast.jar -Dcontrast.appname=spring-mvc-showcase -Dcontrast.server=serverName"
 
     serverName is the name of the server where the agent will run (as seen by TeamServer, usually the hostname)
 4. Update the pom.xml file to reflect your serverName and the connection details for your TeamServer instance;
