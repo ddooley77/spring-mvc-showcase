@@ -50,6 +50,8 @@ The steps to get this working with contrast are;
     $ mvn jetty:run
 
     Access the deployed web application at: http://localhost:8080/spring-mvc-showcase/
+    If you need to use another port use
+    -Djetty.http.port=8095
 6. From TeamsServer, apply a license to spring-mvc-showcase.
 7. Test with "verify"
 
